@@ -379,7 +379,7 @@ public class BrowserUtil {
 
 
 
-    public static List<String> getAllSelectOptions(WebElement element){
+    public static List<String> getAllSelectOptions(WebElement element, WebElement isbn, WebElement year, WebElement author, WebElement categoryDropdown){
 
         Select select=new Select(element);
 
